@@ -1,0 +1,87 @@
+body{
+    background: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: 1400px;
+}
+
+.home{
+    background-image: black;
+    background-size: cover;
+}
+
+.homeicon{
+    color: rgb(255, 255, 255);
+}
+
+/* Navigation Bar */
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px 10px;
+}
+
+ul{
+    padding: 14px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+li a{
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
+
+li a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.navi{
+    background: transparent;
+    text-align: right;
+    object-position: top;
+}
+
+.name{
+    float: left;
+    color: rgb(255, 255, 255);
+/* font-family: 'Abril Fatface',cursive; */
+    font-family: 'Carter One' , cursive;
+    font-weight: lighter;
+    text-shadow: black;
+}
+
+.name:hover{
+    color: rgb(255, 255, 255);
+}
+/* End of Navigation Bar */
+.judul{
+    text-align: center;
+    color:azure;
+}
+img {
+    width: 358px;
+    height: 204xpx;
+    border: 4px solid #575D63;
+  }
+source{
+    padding-left: 0px;
+}
+footer{
+    padding: 10px 10px;
+    position: fixed;
+    bottom: -10px;
+}
+
+.copyright{
+    background: transparent;
+    float: left;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+/* End of Footer */

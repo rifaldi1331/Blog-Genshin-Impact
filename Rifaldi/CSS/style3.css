@@ -1,0 +1,80 @@
+body{
+    background: url("../NK4.jpg");
+    background-size: 1518px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home{
+    background-image: url("../NK4.jpg");
+    background-size: cover;
+}
+
+.homeicon{
+    color: rgb(236, 53, 175);
+}
+
+/* Navigation Bar */
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px 10px;
+}
+
+ul{
+    padding: 14px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+li a{
+    background: transparent;
+    color: rgb(236, 53, 175);
+}
+
+li a:hover{
+    text-decoration: underline;
+    color: rgb(236, 53, 175);
+}
+
+.navi{
+    background: transparent;
+    text-align: right;
+    object-position: top;
+}
+
+.name{
+    float: left;
+    color: rgb(236, 53, 175);
+/* font-family: 'Abril Fatface',cursive; */
+    font-family: 'Carter One' , cursive;
+    font-weight: lighter;
+    text-shadow: black;
+}
+
+.name:hover{
+    color: rgb(236, 53, 175);
+}
+/* End of Navigation Bar */
+
+/* Footer */
+
+footer{
+    padding: 10px 10px;
+    position: fixed;
+    bottom: -10px;
+    text-align: center;
+    float: center;
+}
+
+.copyright{
+    background: transparent;
+    float: center;
+    text-align: center;
+    color: rgb(236, 53, 175);
+}
+
+/* End of Footer */
